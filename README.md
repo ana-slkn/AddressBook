@@ -16,7 +16,11 @@ The Address Book Application is a command-line interface program designed for ma
 To compile the program, follow these steps:
 
 1. Open your command-line interface (CLI) and navigate to the project directory.
-2. Execute the following command:
+2. Create the object file:
+   ```bash
+   g++ Contact.cpp FileFunctions.cpp Functions.cpp HelpFunctions.cpp Main.cpp -o main
+   ```
+3. Execute the following command:
 
     ```bash
     main.exe
